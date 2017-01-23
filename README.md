@@ -28,11 +28,3 @@ The index page can be found in docs/index.html.
 The Node Package Manager (npm) is used to manage dependencies. To install run time dependencies, use the command npm install from the command line. To install development dependencies such as Sass (if used) and Browser-sync, run npm install --dev.
 
 NPM itself depends on having Node.js installed. Using NPM and its packages is entirely optional... the css files transpiled from the Sass files will be included directly in the repository.
-
-## Can i test my changes locally?
-Yes. Open a terminal in the root directory of the site, and run
-```
-npm install  -dev
-gulp
-```
-A browser window should open the site at http://localhost:3000. Any changes to the html content will cause the browser to refresh. To change the settings of the browser-sync preview, visit http://localhost:3001
