@@ -1,0 +1,23 @@
+{
+  "name": "IUNetSci-Bootstrap",
+  "version": "0.0.1",
+  "description": "Generic Template for ACNN Workshops",
+  "main": "index.js",
+  "author": "Christian",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.iu.edu/IUNI/acnn-template.git"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.3",
+    "fontawesome": "",
+    "browser-sync": "^2.18.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "bootstrap": "~4.0.0-alpha.3",
+    "jquery": "~3.1.0"
+  }
+}
