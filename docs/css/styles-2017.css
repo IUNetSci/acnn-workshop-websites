@@ -274,13 +274,15 @@ h5 {
 -----------------------------------------*/
 
 header {
-    background: url(../images/ACN20017-header.jpg) no-repeat center top fixed;
+    background: url(../images/header-main.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
             background-size: cover;
 }
 
 header .color-overlay {
     min-height: 900px;
+    background: rgba(0, 0, 0, 0.35);
+
 }
 
 header .full-screen {
@@ -851,7 +853,7 @@ footer .copyright {
 
 #about
 {
-    background: url('../images/midwest.jpg') no-repeat center fixed;
+    background: url('../images/header-about.jpg') no-repeat center fixed;
 }
 #registration
 {
